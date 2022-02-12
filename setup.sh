@@ -27,8 +27,8 @@ elif [ "${0##*/}" = "dash" ]; then
 fi
 # bootstrap OE
 echo "Init OE"
-export BASH_SOURCE="openembedded-core/oe-init-build-env"
-. ./openembedded-core/oe-init-build-env $DIR
+export BASH_SOURCE="poky/oe-init-build-env"
+. ./poky/oe-init-build-env $DIR
 
 # Symlink the cache
 #echo "Setup symlink for sstate"
