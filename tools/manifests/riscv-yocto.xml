@@ -3,7 +3,7 @@
 <manifest>
   <remote name="poky" fetch="git://git.yoctoproject.org/" />
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
-  <remote name="riscv" fetch="https://github.com/riscv/" />
+  <remote name="riscv" fetch="https://github.com/jmgc/" />
   <default remote="poky" revision="honister" />
 
   <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="honister" />
