@@ -8,7 +8,7 @@
 
   <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="honister" />
   <project name="poky" remote="poky" path="poky" revision="honister" />
-  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="master" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="honister" />
 
 </manifest>
 
